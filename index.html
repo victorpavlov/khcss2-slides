@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>Фронтенд по фэн-шуй</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,17 +10,17 @@
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>Фронтенд по фэн-шуй</h1>
+		<p>Викитор Павлов, FFW Agency</p>
 	</header>
 
-	<section class="slide" id="cover">
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+	<section class="slide black" id="cover">
+		<h2>Фронтенд по фэн-шуй</h2>
+		<h3>基于风格指南基于组件的方法在前端开发</h3>
 		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+			<img class="cover" src="pictures/cover.jpg" alt="Мужик размышляет на скамейке">
 			<figcaption class="white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
+				<a href="https://unsplash.com/@matthewhenry">© Matthew Henry</a>
 			</figcaption>
 		</figure>
 		<style>
@@ -30,6 +30,10 @@
 				text-align:center;
 				font-size:70px;
 				}
+			#cover h3 {
+				color: #fff;
+				text-align: center;
+			}
 			#cover p {
 				margin:10px 0 0;
 				text-align:center;
@@ -43,53 +47,126 @@
 		</style>
 	</section>
 
+	<section class="slide" id="about">
+		<header>
+			<h2>Фронтенд по фэн-шуй</h2>
+			<p class="subtitle">Об основанном на стайл-гайде компонентном подходе в разработке фронтенда</p>
+		</header>
+		<p>Виктор Павлов, FFW Agency</p>
+		<ul>
+			<li><a href="https://twitter.com/hiway_real">@hiway_real</a></li>
+			<li><a href="http://www.master-web.info">master-web.info</a></li>
+			<li><a href="mailto:vitekpavlov@gmail.com">vitekpavlov@gmail.com</a></li>
+		</ul>
+		<style>
+			#about .subtitle{
+				color: gray;
+				line-height: 1.2;
+			}
+		</style>
+	</section>
+
 	<section class="slide">
-		<h2>Shower key features</h2>
+		<h2 class="shout shrink">Зачем нужно, чтобы все было по фэн-шуй?</h2>
+	</section>
+
+	<section class="slide">
+		<h2> Потому, что CSS странный</h2>
+		<figure><img src="pictures/css-is-weird.jpg" style="width: 65%;" alt="CSS странный"></figure>
+	</section>
+
+	<section class="slide">
+		<h2> Потому, что ↓</h2>
+		<figure><img src="pictures/verstke-eto-ne-tupo.png" style="width: 60%;" alt="Верстка — это не тупо"></figure>
+	</section>
+
+	<section class="slide">
+		<h2>А если серъезно:</h2>
 		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Themes are separated from engine</li>
-			<li>Modular and extensible</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
+			<li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
+			<li class="next">Позволяет предоставить клиенту живые макеты до бекенд имплементации</li>
+			<li class="next">Пишем модульный (компонентный), легко поддерживаемый и расширяемы фронтенд</li>
 		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
 	</section>
 
 	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</section>
-
-	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-	</section>
-
-	<section class="slide">
-		<h2>All kind of lists</h2>
+		<h2>Что такое стайл-гайд для фронтенд</h2>
 		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
+			<li>Результат объединения работы UX-дизайнеров и разработчиков</li>
+			<li class="next">Модульнуя коллекцию всех элементов пользовательского интерфейса</li>
+			<li class="next">Фрагменты кода с примерами</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Ключевые элементы стайл-гайд</h2>
+		<ol>
+			<li>Содержание, которое предоставляет легкую навигацию по компонентам</li>
+			<li class="next">Цветовая палитра (в соответствующем формате, HEX для Web, UIColor для iOS app, и т.д.)</li>
+			<li class="next">Типографские стили</li>
+			<li class="next">Отзывчивая разметка (сетка), чтобы красиво разместить элементы <br /><em>(это может, скорее даже должна быть та же сетка, что вы используете в проекте)</em></li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Описание компонентов</h2>
+		<ol>
+			<li>Описание подходящего контекста использования: когда нужно использовать данный компонент, а не любой иной сходный с ним?</li>
+			<li class="next">Примеры кода</li>
+			<li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
+			<li class="next">За и против для использования этого элемента <em>(опционально)</em></li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Базовый лист компонентов</h2>
+		<ul class="double" style="font-size: .5em;">
+			<li>Buttons</li>
+			<li>Button groups</li>
+			<li>Breadcrumbs</li>
+			<li>Cards</li>
+			<li>Tables</li>
+			<li>Dialogs</li>
+			<li>Grid lists of content, media, or photos</li>
+			<li>Vertical lists</li>
+			<li>Navigation menus (and subnavigation)</li>
+			<li>Date and time pickers</li>
+			<li>Progress and loading indicators</li>
+			<li>Checkboxes</li>
+			<li>Radio buttons</li>
+			<li>Drop-down menus</li>
+			<li>Sliders</li>
+			<li>On-off switches</li>
+			<li>Numeric-input steppers/incrementers</li>
+			<li>Form fields (include variations with maximum character-count indicators, and indicators for when the field is required)</li>
+			<li>Tabs</li>
+			<li>Toolbars</li>
+			<li>Tooltips</li>
+			<li>Alert modals</li>
+			<li>Icons</li>
+			<li>Animations</li>
+			<li>Tokens, also known as chips (e.g. email-address field)</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink">Фронтенд стайл-гайд ≠ бренд-бук</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Живой стайл-гайд</h2>
+		<ol>
+			<li>Живой || Неживой</li>
+			<li class="next">
+				Живой выходит за пределы простого набора компонентов
 				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
+					<li class="next">Наборы шаблонов и примеры страниц</li>
+					<li class="next">Часто синхронизирован со стилями проекта</li>
 				</ul>
 			</li>
-			<li>Look, seven rows exactly!</li>
+			<li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
+			<li class="next">За и против для использования этого элемента <em>(опционально)</em></li>
 		</ol>
-	</section>
-
-	<section class="slide">
-		<h2>Serious citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
 	</section>
 
 	<section class="slide">
@@ -159,17 +236,6 @@
 
 	<section class="slide">
 		<h2 class="shout shrink">You can even shout this way</h2>
-	</section>
-
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
 	</section>
 
 	<section class="slide grid">
