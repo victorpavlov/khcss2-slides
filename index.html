@@ -170,15 +170,143 @@
 	</section>
 
 	<section class="slide">
-		<h2>Code samples</h2>
+		<h2 class="shout shrink">Итак вы решили, что вам это нужно?</h2>
+	</section>
+
+	<section class="slide">
+		<h2>С чего начать?</h2>
+		<figure>
+			<img class="place right" width="55%" src="pictures/stgio.png" alt="styleguides.io">
+		</figure>
+		<ul>
+			<li>
+				<a href="http://styleguides.io">styleguides.io</a>
+				<ul>
+					<li>Статьи</li>
+					<li>Книги</li>
+					<li>Подкасты</li>
+					<li>Инструменты</li>
+					<li>Примеры</li>
+				</ul>
+			</li>
+			<li><a href="https://github.com/davidhund/styleguide-generators">styleguide-generators</a> — генераторы гайдов для разных языков.</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink">Примеры генераторов стайл-гайдов</h2>
+	</section>
+
+	<section class="slide">
+		<h2>CS5</h2>
+		<figure>
+			<img class="place right" width="40%" src="pictures/cs5.png" alt="CS5">
+		</figure>
+		<ul>
+			<li>Oснован на KSS</li>
+			<li>Расширен некоторыми полезными функциями</li>
+			<li>Хороший интерфейс</li>
+			<li>Совместим AngularJS 1.x</li>
+			<li>Парсит SASS, LESS, PostCSS и ванильный CSS</li>
+		</ul>
+		<p class="note"><em>Докумментирование ограничено KSS</em><br /><em>Не совсем «живой»</em></p>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink">Более «живые»</h2>
+	</section>
+
+	<section class="slide">
+		<h2><a href="https://sourcejs.com/">Sourcejs</a></h2>
+		<figure>
+			<img class="place right" width="47%" src="pictures/sourcejs.png" alt="CS5">
+		</figure>
+		<ul>
+			<li>Базируется на компонентном подходе</li>
+			<li>Есть система для написания плагинов</li>
+			<li>Интегрируем в стили проекта</li>
+			<li>Использует Grunt</li>
+		</ul>
+		<p class="note"><em>Давно не обновлялся</p>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink"><a href="http://patternlab.io/">Patternlab</a></h2>
+	</section>
+
+	<section class="slide white">
+		<figure>
+			<video class="cover" controls>
+				<source src="pictures/atomic-design.mp4" type="video/mp4">
+			</video>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<ul>
+			<li>Активно разрабатывается</li>
+			<li class="next">Основан на методологии <a href="http://atomicdesign.bradfrost.com/">Atomic design</a></li>
+			<li class="next">Может быть легко использован с любой методологией</li>
+			<li class="next">Генерирует статический сайт с примера шаблонов</li>
+			<li class="next">Можно связать с живым проектом</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Еще несколько особенностей</h2>
+		<ul>
+			<li class="next">Существует в версиях для Node и PHP</li>
+			<li class="next">Позволяет включать одни шаблоны в другие и формировать компоненты</li>
+			<li class="next">Динамические данные для контента (используется как JSON, так и YML)</li>
+			<li class="next">Не зависит от каких-либо конкретных инструментов</li>
+			<li class="next">Позволяет документировать паттерны и создавать аннотации к ним</li>
+			<li class="next">Содержит готовые наборы стартовых паттернов: Bootstrap, Foundation или Material Design</li>
+			<li class="next">Можно расширить с помощью плагинов</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink">А как же React? :)</h2>
+	</section>
+
+	<section class="slide">
+		<h2><a href="https://github.com/pocotan001/react-styleguide-generator">React Styleguide Generator</a></h2>
+		<figure>
+			<img class="place right" width="40%" src="pictures/react.png" alt="CS5">
+		</figure>
+		<ul>
+			<li>Работает с React на уровне компонентов</li>
+			<li>Добавляем документацию в виде<br/> статического свойства с объектов-описанием</li>
+		</ul>
+	</section>
+
+	<section class="slide">
 		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
+			<code style="font-size: .4em;">
+			import React from 'react'
+			import Button from './Button'
+
+			export default class extends React.Component {
+				static styleguide = {
+					index: '1.1',
+					category: 'Elements',
+					title: 'Button',
+					description: 'You can use **Markdown** within this `description` field.',
+					code: `&lt;Button size='small|large' onClick={Function}&gt;Cool Button&lt;/Button&gt;`,
+					className: 'apply the css class'
+				}
+
+				onClick () {
+					alert('Alo!')
+				}
+
+				render () {
+					return (
+					&lt;Button size='large' onClick={this.onClick}&gt;Cool Button&lt;/Button&gt;
+					)
+				}
+			}
+			</code>
 		</pre>
 	</section>
 
