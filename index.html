@@ -336,13 +336,99 @@
 	</section>
 
 	<section class="slide white">
-		<h2 style="padding: 10px; background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);">В итоге, что типа…</h2>
+		<h2 style="padding: 10px; background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);">В итоге, что-то типа…</h2>
 		<figure>
 			<img class="cover" src="pictures/sgsample.png" alt="Пример простого стайлгайда">
 			<figcaption>
 				<a href="https://github.com/cehfisher/a11y-style-guide">https://github.com/cehfisher/a11y-style-guide</a>
 			</figcaption>
 		</figure>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink">О компонентном подходе</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Компонентный подход во фронтенде</h2>
+		<ul>
+			<li>Сложно, но можно!</li>
+			<li>Если можно, то нужно!</li>
+		</ul>
+	</section>
+
+	<section class="slide white">
+		<h2>Принципы</h2>
+		<figure>
+			<img class="place top right" src="pictures/comp-sample.png" alt="Пример компонента">
+		</figure>
+		<ul>
+			<li>Каждый компонент имеет свое место<br /> в сорс-три вашего проекта.</li>
+			<li class="next">Каждый компонент содержит все<br /> необходимое для его успешного функционирования.</li>
+			<li class="next">Каждый компонент придерживается принципов DRY</li>
+			<li class="next">Каждый компонент придерживается SRP</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout">Что нам поможет?</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Методологии в CSS</h2>
+		<ul>
+			<li><a href="https://ru.bem.info/">БЭМ</a></li>
+			<li><a href="https://smacss.com/">SMACSS</a></li>
+			<li><a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a></li>
+			<li><a href="https://acss.io/">Atomic CSS</a></li>
+			<li><a href="http://operatino.github.io/MCSS/">MCSS</a></li>
+			<li><a href="https://amcss.github.io/">AMCSS</a></li>
+			<li><a href="https://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/">FUN</a></li>
+		</ul>
+		<p>Есть <a href="https://habrahabr.ru/post/256109/">неплохая обзорная статья на хабре</a>. <a href="http://html5.by/blog/bem-amcss-oocss-atomiccss-opor-mcss-smacss-fun-docssa-video/">Здесь доклад.</a></p>
+	</section>
+
+	<section class="slide">
+		<h2>Как добиться использования методологии?</h2>
+		<ul>
+			<li>Описание методологии в документации проекта</li>
+			<li class="next">Линтинг CSS (как?) <a href="https://stylelint.io/">Stylelint</a> dev/build</li>
+			<li class="next">Код-ревью</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Организация компонентов</h2>
+		<p>«Слоеный пирог» разделения ответственности</p>
+		<ul>
+			<li class="next"><b>Базовый слой (base/root)</b> — отвечает за основную конфигурацию проекта</li>
+			<li class="next"><b>Блоки</b> — основная структурная единица проекта</li>
+			<li class="next"><b>Компоненты</b> — слой для организации блоков</li>
+			<li class="next"><b>Разметка</b> — функцию распределения компонентов в интерфейсе</li>
+			<li class="next"><b>Шаблоны</b> —  типовые примеры распределения компонентов в разметке</li>
+			<li class="next"><b>Страницы</b> — еще один вспомогательный слой для того, чтобы сделать шаблоны красивыми</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2 class="shout shrink">Что поможет в организации компонентов?</h2>
+	</section>
+
+	<section class="slide">
+		<h2>Модульность</h2>
+		<ul>
+			<li>ES6 modules — для JavaScript</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>CSS modules</h2>
+		<ul>
+			<li><a href="https://github.com/css-modules/postcss-modules">Postcss-modules</a></li>
+			<li class="next">Конечно же, React — <a href="https://github.com/styled-components/polished">styled-components</a></li>
+			<li class="next">И, в качестве плюхи <a href="https://polished.js.org/">https://polished.js.org/</a></li>
+			<li class="next">Отличный доклад по модульному CSS <a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a></li>
+		</ul>
 	</section>
 
 	<section class="slide">
