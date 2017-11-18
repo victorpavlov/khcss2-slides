@@ -10,13 +10,13 @@
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Фронтенд по фэн-шуй</h1>
+		<h1>Правильный фронтенд независимо от технологий<</h1>
 		<p>Викитор Павлов, FFW Agency</p>
 	</header>
 
 	<section class="slide black" id="cover">
-		<h2>Фронтенд по фэн-шуй</h2>
-		<h3>基于风格指南基于组件的方法在前端开发</h3>
+		<h2>Правильный фронтенд независимо от технологий</h2>
+		<h3>Об основанном на стайл-гайде независимом от технологий компонентном подходе в разработке фронтенда</h3>
 		<figure>
 			<img class="cover" src="pictures/cover.jpg" alt="Мужик размышляет на скамейке">
 			<figcaption class="white">
@@ -24,6 +24,7 @@
 			</figcaption>
 		</figure>
 		<style>
+			#cover::after {visibility: hidden;}
 			#cover h2 {
 				margin:30px 0 0;
 				color:#FFF;
@@ -41,18 +42,18 @@
 				font-style:italic;
 				font-size:20px;
 				}
-				#cover p a {
-					color:#FFF;
-					}
+			#cover p a {
+				color:#FFF;
+			}
 		</style>
 	</section>
 
-	<section class="slide" id="about">
-		<header>
-			<h2>Фронтенд по фэн-шуй</h2>
-			<p class="subtitle">Об основанном на стайл-гайде компонентном подходе в разработке фронтенда</p>
-		</header>
-		<p>Виктор Павлов, FFW Agency</p>
+	<section class="slide white" id="about">
+		<div style="border-radius: 50%;overflow: hidden;float: left;width: 30%;height: 47%;margin: 0 8% 0 0;">
+			<img src="./pictures/me.jpg" alt="Виктор Павлов" style="width: 200%;object-fit: scale-down;transform: translate(-23%, -11%);">
+		</div>
+		<h2 style="margin: 0 0 .5rem;">Виктор Павлов, FFW Agency</h2>
+		<p>Front-end developer</p>
 		<ul>
 			<li><a href="https://twitter.com/hiway_real">@hiway_real</a></li>
 			<li><a href="http://www.master-web.info">master-web.info</a></li>
@@ -67,7 +68,7 @@
 	</section>
 
 	<section class="slide">
-		<h2 class="shout shrink">Зачем нужно, чтобы все было по фэн-шуй?</h2>
+		<h2 class="shout shrink">Зачем это нужно?</h2>
 	</section>
 
 	<section class="slide">
@@ -84,7 +85,18 @@
 		<h2>А если серъезно:</h2>
 		<ol>
 			<li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
-			<li class="next">Позволяет предоставить клиенту живые макеты до бекенд имплементации</li>
+		</ol>
+	</section>
+
+	<section class="slide">
+		<img class="cover" src="./pictures/bad-css.png" alt="Пример плохого CSS">
+	</section>
+
+	<section class="slide">
+		<h2>А если серъезно:</h2>
+		<ol>
+			<li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
+			<li>Позволяет предоставить клиенту живые макеты до бекенд имплементации</li>
 			<li class="next">Пишем модульный (компонентный), легко поддерживаемый и расширяемы фронтенд</li>
 		</ol>
 	</section>
