@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<title>Фронтенд по фэн-шуй</title>
+	<title>Правильный фронтенд независимо от технологий</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
 <body class="shower list">
 
 	<header class="caption">
-		<h1>Правильный фронтенд независимо от технологий<</h1>
+		<h1>Правильный фронтенд независимо от технологий</h1>
 		<p>Викитор Павлов, FFW Agency</p>
 	</header>
 
@@ -257,7 +257,7 @@
 	<section class="slide">
 		<ul>
 			<li>Активно разрабатывается</li>
-			<li class="next">Основан на методологии <a href="http://atomicdesign.bradfrost.com/">Atomic design</a></li>
+			<li class="next">Основан на методологии <a href="http://atomicdesign.bradfrost.com/">Atomic design</a> <b>не путать с Atomic CSS</b></li>
 			<li class="next">Может быть легко использован с любой методологией</li>
 			<li class="next">Генерирует статический сайт с примера шаблонов</li>
 			<li class="next">Можно связать с живым проектом</li>
@@ -335,7 +335,7 @@
 			<li class="next"><a href="https://github.com/kss-node/kss-node">kss-node</a> — для документирования в стилях</li>
 			<li class="next">Шаблонизатор для HTML (Mustache, Twig, Pug…)</li>
 			<li class="next">Для CSS — <s>SASS</s> <a href="http://postcss.org/">PostCSS</a></li>
-			<li class="next">Для JavaScript: <a href="https://babeljs.io/">Babel</a> + <a href="http://browserify.org/">Browserify</a> || <a href="https://webpack.js.org">Webpack</a></li>
+			<li class="next">Для JavaScript: <s><a href="https://babeljs.io/">Babel</a> + <a href="http://browserify.org/">Browserify</a></s> → <a href="https://webpack.js.org">Webpack</a></li>
 			<li class="next">
 				Линтеры
 				<ul>
@@ -406,6 +406,7 @@
 			<li>Описание методологии в документации проекта</li>
 			<li class="next">Линтинг CSS (как?) <a href="https://stylelint.io/">Stylelint</a> dev/build</li>
 			<li class="next">Код-ревью</li>
+			<li class="next">Доклад Антона Немцева «Кодстайл и насилие» → <a href="https://silentimp.github.io/codeStyleAndViolenceRu/index.html#slide-1">слайды</a></li>
 		</ul>
 	</section>
 
@@ -414,9 +415,9 @@
 		<p>«Слоеный пирог» разделения ответственности</p>
 		<ul>
 			<li class="next"><b>Базовый слой (base/root)</b> — отвечает за основную конфигурацию проекта</li>
+			<li class="next"><b>Разметка</b> — функция распределения компонентов в интерфейсе</li>
 			<li class="next"><b>Блоки</b> — основная структурная единица проекта</li>
 			<li class="next"><b>Компоненты</b> — слой для организации блоков</li>
-			<li class="next"><b>Разметка</b> — функцию распределения компонентов в интерфейсе</li>
 			<li class="next"><b>Шаблоны</b> —  типовые примеры распределения компонентов в разметке</li>
 			<li class="next"><b>Страницы</b> — еще один вспомогательный слой для того, чтобы сделать шаблоны красивыми</li>
 		</ul>
@@ -427,9 +428,10 @@
 	</section>
 
 	<section class="slide">
-		<h2>Модульность</h2>
+		<h2>Модульность JS</h2>
 		<ul>
 			<li>ES6 modules — для JavaScript</li>
+			<li class="next"><img src="./pictures/all-er.jpg" alt="Всё!" class="cover w h"></li>
 		</ul>
 	</section>
 
@@ -438,85 +440,113 @@
 		<ul>
 			<li><a href="https://github.com/css-modules/postcss-modules">Postcss-modules</a></li>
 			<li class="next">Конечно же, React — <a href="https://github.com/styled-components/polished">styled-components</a></li>
-			<li class="next">И, в качестве плюхи <a href="https://polished.js.org/">https://polished.js.org/</a></li>
-			<li class="next">Отличный доклад по модульному CSS <a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a></li>
+			<li class="next">Продолжаем — <a href="https://stylable.io/">Stylable</a></li>
+			<li class="next">Продолжаем…</li>
+			<li class="next">Отличный доклад по модульному CSS <a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a> — <b>Модульный CSS — Андрей Оконечников</b></li>
 		</ul>
 	</section>
 
 	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</section>
-
-	<section class="slide" id="picture">
-		<h2>Pictures</h2>
-		<figure>
-			<img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-			<figcaption class="white">
-				<a href="http://fiftyfootshadows.net/">© John Carey</a>
-			</figcaption>
-		</figure>
-		<style>
-			#picture h2 {
-				color:#FFF;
-				}
-		</style>
+		<h2 class="shout shrink">А теперь самое интересное!</h2>
 	</section>
 
 	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
+		<img src="./pictures/html-js-css.jpg" alt="HTML + JS + CSS" class="cover">
+		<h2 style="position: absolute;bottom: 8%;left: 50%;transform: translateX(-50%);">All you need is…</h2>
 	</section>
 
-	<section class="slide grid">
-		<h2>All nicely aligned to grid</h2>
+	<section class="slide">
+		<h2 class="shout shrink">Technology-agnostic Design Systems</h2>
 	</section>
 
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">See more on GitHub</a>
-		</h2>
-		<style>
-			#see-more h2 {
-				font-size:100px
-				}
-			#see-more img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
+	<section class="slide">
+		<h2>Mustache — почти HTML</h2>
+		<pre>
+	<code>
+	&lt;div class="c-card"&gt;
+		&lt;img src="{{ img }}" class="c-card__img" /&gt;
+		&lt;h2 class="c-card__title"&gt;{{ title }}&lt;/h2&gt;
+		&lt;p class="c-card__desc"&gt;{{ description }}&lt;/p&gt;
+	&lt;/div&gt;
+	</code>
+		</pre>
+	</section>
+
+	<section class="slide">
+		<h2>React</h2>
+		<pre style="margin-top: -100px;transform: scale(.75);"><code>
+var Card = React.createClass({
+	render: function() {
+		return (
+			&lt;div className="c-card"&gt;
+				&lt;img src="{this.props.img}" className="c-card__img" /&gt;
+				&lt;h2 className="c-card__title"&gt;{this.props.title}&lt;/h2&gt;
+				&lt;p className="c-card__desc"&gt;{this.props.desc}&lt;/p&gt;
+			&lt;/div&gt;
+		);
+	}
+})
+		</code></pre>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<img class="cover w h" src="./pictures/tech-bubbles-1024x922.png" alt="Схема технологий">
+			<figcaption>
+				<a href="http://fiftyfootshadows.net/">© Brad Frost</a>
+			</figcaption>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<h2>Дизайн система не зависимая от технологии использует</h2>
+		<ul>
+			<li>
+				HTML для разметки
+			</li>
+			<li class="next">CSS для стилей
+			</li>
+			<li class="next">
+				Базовый JavaScript для манипуляций с DOM
+			</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h2>Bootstrap</h2>
+		<img src="./pictures/bootstrap-dist.png" alt="Bootstrap" class="cover">
+	</section>
+
+	<section class="slide">
+		<h2 style="margin-bottom: 0;" >Жизнь алерта в TADS</h2>
+		<p><b>Bootstrap</b></p>
+		<img src="./pictures/bootstrap-alert.png" alt="Алерт в бутсрапе">
+	</section>
+
+	<section class="slide">
+		<p><b>React-Bootstrap</b></p>
+		<img src="./pictures/alert-rb.png" alt="Алерт в React-Bootstrap" class="place" width="55%">
+	</section>
+
+	<section class="slide">
+		<p>
+			<b>ng-bootstrap</b>
+		</p>
+		<img src="./pictures/ang-all.png" alt="Алерт в ng-bootstrap" class="place" width="55%">
+	</section>
+
+	<section class="slide">
+		<p>
+			<b>WordPress Bootstrap Theme</b>
+		</p>
+		<img src="./pictures/wp-b-al.png" alt="Алерт в WordPress Bootstrap Theme" class="place" width="50%">
+	</section>
+
+	<section class="slide">
+		<p>
+			<b>Drupal Bootstrap</b>
+		</p>
+		<img src="./pictures/drupal-bp-all.png" alt="Алерт в Drupal Bootstrap Theme" class="place bottom" width="50%" style="bottom: 10%;">
 	</section>
 
 	<footer class="badge">
