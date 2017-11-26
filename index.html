@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<title>Правильный фронтенд независимо от технологий</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+	<style>
+		.slide::after {
+			visibility: hidden;
+		}
+
+	</style>
 </head>
+
 <body class="shower list">
 
 	<header class="caption">
@@ -24,27 +32,34 @@
 			</figcaption>
 		</figure>
 		<style>
-			#cover::after {visibility: hidden;}
+			#cover::after {
+				visibility: hidden;
+			}
+
 			#cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
-				}
+				margin: 30px 0 0;
+				color: #FFF;
+				text-align: center;
+				font-size: 70px;
+			}
+
 			#cover h3 {
 				color: #fff;
 				text-align: center;
 			}
+
 			#cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
-				font-style:italic;
-				font-size:20px;
-				}
-			#cover p a {
-				color:#FFF;
+				margin: 10px 0 0;
+				text-align: center;
+				color: #FFF;
+				font-style: italic;
+				font-size: 20px;
 			}
+
+			#cover p a {
+				color: #FFF;
+			}
+
 		</style>
 	</section>
 
@@ -55,15 +70,22 @@
 		<h2 style="margin: 0 0 .5rem;">Виктор Павлов, FFW Agency</h2>
 		<p>Front-end developer</p>
 		<ul>
-			<li><a href="https://twitter.com/hiway_real">@hiway_real</a></li>
-			<li><a href="http://www.master-web.info">master-web.info</a></li>
-			<li><a href="mailto:vitekpavlov@gmail.com">vitekpavlov@gmail.com</a></li>
+			<li>
+				<a href="https://twitter.com/hiway_real">@hiway_real</a>
+			</li>
+			<li>
+				<a href="http://www.master-web.info">master-web.info</a>
+			</li>
+			<li>
+				<a href="mailto:vitekpavlov@gmail.com">vitekpavlov@gmail.com</a>
+			</li>
 		</ul>
 		<style>
-			#about .subtitle{
+			#about .subtitle {
 				color: gray;
 				line-height: 1.2;
 			}
+
 		</style>
 	</section>
 
@@ -73,12 +95,16 @@
 
 	<section class="slide">
 		<h2> Потому, что CSS странный</h2>
-		<figure><img src="pictures/css-is-weird.jpg" style="width: 65%;" alt="CSS странный"></figure>
+		<figure>
+			<img src="pictures/css-is-weird.jpg" style="width: 65%;" alt="CSS странный">
+		</figure>
 	</section>
 
 	<section class="slide">
 		<h2> Потому, что ↓</h2>
-		<figure><img src="pictures/verstke-eto-ne-tupo.png" style="width: 60%;" alt="Верстка — это не тупо"></figure>
+		<figure>
+			<img src="pictures/verstke-eto-ne-tupo.png" style="width: 60%;" alt="Верстка — это не тупо">
+		</figure>
 	</section>
 
 	<section class="slide">
@@ -116,7 +142,10 @@
 			<li>Содержание, которое предоставляет легкую навигацию по компонентам</li>
 			<li class="next">Цветовая палитра (в соответствующем формате, HEX для Web, UIColor для iOS app, и т.д.)</li>
 			<li class="next">Типографские стили</li>
-			<li class="next">Отзывчивая разметка (сетка), чтобы красиво разместить элементы <br /><em>(это может, скорее даже должна быть та же сетка, что вы используете в проекте)</em></li>
+			<li class="next">Отзывчивая разметка (сетка), чтобы красиво разместить элементы
+				<br />
+				<em>(это может, скорее даже должна быть та же сетка, что вы используете в проекте)</em>
+			</li>
 		</ol>
 	</section>
 
@@ -126,7 +155,9 @@
 			<li>Описание подходящего контекста использования: когда нужно использовать данный компонент, а не любой иной сходный с ним?</li>
 			<li class="next">Примеры кода</li>
 			<li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
-			<li class="next">За и против для использования этого элемента <em>(опционально)</em></li>
+			<li class="next">За и против для использования этого элемента
+				<em>(опционально)</em>
+			</li>
 		</ol>
 	</section>
 
@@ -177,7 +208,9 @@
 				</ul>
 			</li>
 			<li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
-			<li class="next">За и против для использования этого элемента <em>(опционально)</em></li>
+			<li class="next">За и против для использования этого элемента
+				<em>(опционально)</em>
+			</li>
 		</ol>
 	</section>
 
@@ -201,7 +234,8 @@
 					<li>Примеры</li>
 				</ul>
 			</li>
-			<li><a href="https://github.com/davidhund/styleguide-generators">styleguide-generators</a> — генераторы гайдов для разных языков.</li>
+			<li>
+				<a href="https://github.com/davidhund/styleguide-generators">styleguide-generators</a> — генераторы гайдов для разных языков.</li>
 		</ul>
 	</section>
 
@@ -221,7 +255,11 @@
 			<li>Совместим AngularJS 1.x</li>
 			<li>Парсит SASS, LESS, PostCSS и ванильный CSS</li>
 		</ul>
-		<p class="note"><em>Докумментирование ограничено KSS</em><br /><em>Не совсем «живой»</em></p>
+		<p class="note">
+			<em>Докумментирование ограничено KSS</em>
+			<br />
+			<em>Не совсем «живой»</em>
+		</p>
 	</section>
 
 	<section class="slide">
@@ -229,7 +267,9 @@
 	</section>
 
 	<section class="slide">
-		<h2><a href="https://sourcejs.com/">Sourcejs</a></h2>
+		<h2>
+			<a href="https://sourcejs.com/">Sourcejs</a>
+		</h2>
 		<figure>
 			<img class="place right" width="47%" src="pictures/sourcejs.png" alt="CS5">
 		</figure>
@@ -239,11 +279,14 @@
 			<li>Интегрируем в стили проекта</li>
 			<li>Использует Grunt</li>
 		</ul>
-		<p class="note"><em>Давно не обновлялся</p>
+		<p class="note">
+			<em>Давно не обновлялся</p>
 	</section>
 
 	<section class="slide">
-		<h2 class="shout shrink"><a href="http://patternlab.io/">Patternlab</a></h2>
+		<h2 class="shout shrink">
+			<a href="http://patternlab.io/">Patternlab</a>
+		</h2>
 	</section>
 
 	<section class="slide white">
@@ -257,7 +300,10 @@
 	<section class="slide">
 		<ul>
 			<li>Активно разрабатывается</li>
-			<li class="next">Основан на методологии <a href="http://atomicdesign.bradfrost.com/">Atomic design</a> <b>не путать с Atomic CSS</b></li>
+			<li class="next">Основан на методологии
+				<a href="http://atomicdesign.bradfrost.com/">Atomic design</a>
+				<b>не путать с Atomic CSS</b>
+			</li>
 			<li class="next">Может быть легко использован с любой методологией</li>
 			<li class="next">Генерирует статический сайт с примера шаблонов</li>
 			<li class="next">Можно связать с живым проектом</li>
@@ -278,17 +324,28 @@
 	</section>
 
 	<section class="slide">
+		<h2 class="shout shrink">Бонус!</h2>
+	</section>
+
+	<section class="slide">
+		<img src="./pictures/styleguide-guide.png" class="cover" alt="Styleguide Guide">
+	</section>
+
+	<section class="slide">
 		<h2 class="shout shrink">А как же React? :)</h2>
 	</section>
 
 	<section class="slide">
-		<h2><a href="https://github.com/pocotan001/react-styleguide-generator">React Styleguide Generator</a></h2>
+		<h2>
+			<a href="https://github.com/pocotan001/react-styleguide-generator">React Styleguide Generator</a>
+		</h2>
 		<figure>
 			<img class="place right" width="40%" src="pictures/react.png" alt="CS5">
 		</figure>
 		<ul>
 			<li>Работает с React на уровне компонентов</li>
-			<li>Добавляем документацию в виде<br/> статического свойства с объектов-описанием</li>
+			<li>Добавляем документацию в виде
+				<br/> статического свойства с объектов-описанием</li>
 		</ul>
 	</section>
 
@@ -332,18 +389,37 @@
 			<img class="place top right" src="pictures/denwer.jpg" alt="Старый-добрый Денвер">
 		</figure>
 		<ul>
-			<li class="next"><a href="https://github.com/kss-node/kss-node">kss-node</a> — для документирования в стилях</li>
+			<li class="next">
+				<a href="https://github.com/kss-node/kss-node">kss-node</a> — для документирования в стилях</li>
 			<li class="next">Шаблонизатор для HTML (Mustache, Twig, Pug…)</li>
-			<li class="next">Для CSS — <s>SASS</s> <a href="http://postcss.org/">PostCSS</a></li>
-			<li class="next">Для JavaScript: <s><a href="https://babeljs.io/">Babel</a> + <a href="http://browserify.org/">Browserify</a></s> → <a href="https://webpack.js.org">Webpack</a></li>
+			<li class="next">Для CSS —
+				<s>SASS</s>
+				<a href="http://postcss.org/">PostCSS</a>
+			</li>
+			<li class="next">Для JavaScript:
+				<s>
+					<a href="https://babeljs.io/">Babel</a> +
+					<a href="http://browserify.org/">Browserify</a>
+				</s> →
+				<a href="https://webpack.js.org">Webpack</a>
+			</li>
 			<li class="next">
 				Линтеры
 				<ul>
-					<li><a href="http://eslint.org/">Eslint</a> → <a href="https://standardjs.com/">Standardjs</a> = <mark>"no config" ESLint</mark></li>
-					<li><a href="https://github.com/stylelint/stylelint">Stylelint</a></li>
+					<li>
+						<a href="http://eslint.org/">Eslint</a> →
+						<a href="https://standardjs.com/">Standardjs</a> =
+						<mark>"no config" ESLint</mark>
+					</li>
+					<li>
+						<a href="https://github.com/stylelint/stylelint">Stylelint</a>
+					</li>
 				</ul>
 			</li>
-			<li class="next">Сборщики: Gulp, Grunt, <a href="http://brunch.io/">Brunch</a> или опять же <a href="https://webpack.js.org">Webpack</a></li>
+			<li class="next">Сборщики: Gulp, Grunt,
+				<a href="http://brunch.io/">Brunch</a> или опять же
+				<a href="https://webpack.js.org">Webpack</a>
+			</li>
 		</ul>
 	</section>
 
@@ -375,8 +451,10 @@
 			<img class="place top right" src="pictures/comp-sample.png" alt="Пример компонента">
 		</figure>
 		<ul>
-			<li>Каждый компонент имеет свое место<br /> в сорс-три вашего проекта.</li>
-			<li class="next">Каждый компонент содержит все<br /> необходимое для его успешного функционирования.</li>
+			<li>Каждый компонент имеет свое место
+				<br /> в сорс-три вашего проекта.</li>
+			<li class="next">Каждый компонент содержит все
+				<br /> необходимое для его успешного функционирования.</li>
 			<li class="next">Каждый компонент придерживается принципов DRY</li>
 			<li class="next">Каждый компонент придерживается SRP</li>
 		</ul>
@@ -389,24 +467,44 @@
 	<section class="slide">
 		<h2>Методологии в CSS</h2>
 		<ul>
-			<li><a href="https://ru.bem.info/">БЭМ</a></li>
-			<li><a href="https://smacss.com/">SMACSS</a></li>
-			<li><a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a></li>
-			<li><a href="https://acss.io/">Atomic CSS</a></li>
-			<li><a href="http://operatino.github.io/MCSS/">MCSS</a></li>
-			<li><a href="https://amcss.github.io/">AMCSS</a></li>
-			<li><a href="https://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/">FUN</a></li>
+			<li>
+				<a href="https://ru.bem.info/">БЭМ</a>
+			</li>
+			<li>
+				<a href="https://smacss.com/">SMACSS</a>
+			</li>
+			<li>
+				<a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a>
+			</li>
+			<li>
+				<a href="https://acss.io/">Atomic CSS</a>
+			</li>
+			<li>
+				<a href="http://operatino.github.io/MCSS/">MCSS</a>
+			</li>
+			<li>
+				<a href="https://amcss.github.io/">AMCSS</a>
+			</li>
+			<li>
+				<a href="https://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/">FUN</a>
+			</li>
 		</ul>
-		<p>Есть <a href="https://habrahabr.ru/post/256109/">неплохая обзорная статья на хабре</a>. <a href="http://html5.by/blog/bem-amcss-oocss-atomiccss-opor-mcss-smacss-fun-docssa-video/">Здесь доклад.</a></p>
+		<p>Есть
+			<a href="https://habrahabr.ru/post/256109/">неплохая обзорная статья на хабре</a>.
+			<a href="http://html5.by/blog/bem-amcss-oocss-atomiccss-opor-mcss-smacss-fun-docssa-video/">Здесь доклад.</a>
+		</p>
 	</section>
 
 	<section class="slide">
 		<h2>Как добиться использования методологии?</h2>
 		<ul>
 			<li>Описание методологии в документации проекта</li>
-			<li class="next">Линтинг CSS (как?) <a href="https://stylelint.io/">Stylelint</a> dev/build</li>
+			<li class="next">Линтинг CSS (как?)
+				<a href="https://stylelint.io/">Stylelint</a> dev/build</li>
 			<li class="next">Код-ревью</li>
-			<li class="next">Доклад Антона Немцева «Кодстайл и насилие» → <a href="https://silentimp.github.io/codeStyleAndViolenceRu/index.html#slide-1">слайды</a></li>
+			<li class="next">Доклад Антона Немцева «Кодстайл и насилие» →
+				<a href="https://silentimp.github.io/codeStyleAndViolenceRu/index.html#slide-1">слайды</a>
+			</li>
 		</ul>
 	</section>
 
@@ -414,12 +512,18 @@
 		<h2>Организация компонентов</h2>
 		<p>«Слоеный пирог» разделения ответственности</p>
 		<ul>
-			<li class="next"><b>Базовый слой (base/root)</b> — отвечает за основную конфигурацию проекта</li>
-			<li class="next"><b>Разметка</b> — функция распределения компонентов в интерфейсе</li>
-			<li class="next"><b>Блоки</b> — основная структурная единица проекта</li>
-			<li class="next"><b>Компоненты</b> — слой для организации блоков</li>
-			<li class="next"><b>Шаблоны</b> —  типовые примеры распределения компонентов в разметке</li>
-			<li class="next"><b>Страницы</b> — еще один вспомогательный слой для того, чтобы сделать шаблоны красивыми</li>
+			<li class="next">
+				<b>Базовый слой (base/root)</b> — отвечает за основную конфигурацию проекта</li>
+			<li class="next">
+				<b>Разметка</b> — функция распределения компонентов в интерфейсе</li>
+			<li class="next">
+				<b>Блоки</b> — основная структурная единица проекта</li>
+			<li class="next">
+				<b>Компоненты</b> — слой для организации блоков</li>
+			<li class="next">
+				<b>Шаблоны</b> — типовые примеры распределения компонентов в разметке</li>
+			<li class="next">
+				<b>Страницы</b> — еще один вспомогательный слой для того, чтобы сделать шаблоны красивыми</li>
 		</ul>
 	</section>
 
@@ -431,18 +535,29 @@
 		<h2>Модульность JS</h2>
 		<ul>
 			<li>ES6 modules — для JavaScript</li>
-			<li class="next"><img src="./pictures/all-er.jpg" alt="Всё!" class="cover w h"></li>
+			<li class="next">
+				<img src="./pictures/all-er.jpg" alt="Всё!" class="cover w h">
+			</li>
 		</ul>
 	</section>
 
 	<section class="slide">
 		<h2>CSS modules</h2>
 		<ul>
-			<li><a href="https://github.com/css-modules/postcss-modules">Postcss-modules</a></li>
-			<li class="next">Конечно же, React — <a href="https://github.com/styled-components/polished">styled-components</a></li>
-			<li class="next">Продолжаем — <a href="https://stylable.io/">Stylable</a></li>
+			<li>
+				<a href="https://github.com/css-modules/postcss-modules">Postcss-modules</a>
+			</li>
+			<li class="next">Конечно же, React —
+				<a href="https://github.com/styled-components/polished">styled-components</a>
+			</li>
+			<li class="next">Продолжаем —
+				<a href="https://stylable.io/">Stylable</a>
+			</li>
 			<li class="next">Продолжаем…</li>
-			<li class="next">Отличный доклад по модульному CSS <a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a> — <b>Модульный CSS — Андрей Оконечников</b></li>
+			<li class="next">Отличный доклад по модульному CSS
+				<a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a> —
+				<b>Модульный CSS — Андрей Оконечников</b>
+			</li>
 		</ul>
 	</section>
 
@@ -518,13 +633,17 @@ var Card = React.createClass({
 	</section>
 
 	<section class="slide">
-		<h2 style="margin-bottom: 0;" >Жизнь алерта в TADS</h2>
-		<p><b>Bootstrap</b></p>
+		<h2 style="margin-bottom: 0;">Жизнь алерта в TADS</h2>
+		<p>
+			<b>Bootstrap</b>
+		</p>
 		<img src="./pictures/bootstrap-alert.png" alt="Алерт в бутсрапе">
 	</section>
 
 	<section class="slide">
-		<p><b>React-Bootstrap</b></p>
+		<p>
+			<b>React-Bootstrap</b>
+		</p>
 		<img src="./pictures/alert-rb.png" alt="Алерт в React-Bootstrap" class="place" width="55%">
 	</section>
 
@@ -549,6 +668,73 @@ var Card = React.createClass({
 		<img src="./pictures/drupal-bp-all.png" alt="Алерт в Drupal Bootstrap Theme" class="place bottom" width="50%" style="bottom: 10%;">
 	</section>
 
+	<section class="slide">
+		<p><b>Ссылки</b></p>
+		<ol class="double">
+			<li>
+<a href="http://styleguides.io/tools.html">styleguides.io</a> - здесь много всего по стайлгайдам</li>
+
+			<li>
+				<a href="https://github.com/davidhund/styleguide-generators">styleguide-generators</a> - коллекция генераторов стайл-гайдов для разных языков</li>
+			<li>
+				<strong>
+					<a href="https://sourcejs.com/">SourceJS</a>
+				</strong>
+			</li>
+			<li>
+				<strong>
+					<a href="http://patternlab.io/">Patterblab</a>
+				</strong>
+				<ul>
+					<li>
+						<a href="https://www.smashingmagazine.com/2016/07/building-maintaining-atomic-design-systems-pattern-lab/">Patternlab с Drupal 8</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://atomicdesign.bradfrost.com/">Atomic design</a> &mdash; книга Бреда Фроста про атомарный дизайн</li>
+			<li>
+				<a href="https://medium.com/building-a-component-library">Как ребята делали свою библиотеку компонентов</a>
+			</li>
+
+			<li>
+				<a href="http://webmasters.teamdev.com/">Верстка это не тупо</a>
+			</li>
+
+			<li>
+				<a href="http://bradfrost.com/blog/post/managing-technology-agnostic-design-systems/">Managing technology agnostic design systems</a>
+			</li>
+			<li>
+				<a href="http://www.master-web.info/style-guide-guide-start/">Стайлгайд для стайлгада</a>
+			</li>
+		</ol>
+
+	</section>
+
+	<section class="slide">
+		<h2 class="shout">Спасибо!</h2>
+	</section>
+
+	<section class="slide" id="see-more">
+
+		<h2 class="shout">
+			<img src="pictures/logo.svg" alt="Shower logo">
+			<a href="https://github.com/shower/shower">Спасибо Shower</a>
+
+		</h2>
+		<style>
+			#see-more h2 {
+				font-size: 100px
+			}
+
+			#see-more img {
+				width: 0.72em;
+				height: 0.72em;
+			}
+		</style>
+	</section>
+
+
 	<footer class="badge">
 		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
 	</footer>
@@ -559,4 +745,5 @@ var Card = React.createClass({
 	<!-- Copyright © 2017 Yours Truly, Famous Inc. -->
 
 </body>
+
 </html>
