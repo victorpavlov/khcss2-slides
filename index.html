@@ -2,670 +2,693 @@
 <html lang="ru">
 
 <head>
-	<title>Правильный фронтенд независимо от технологий</title>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
-	<style>
-		.slide::after {
-			visibility: hidden;
-		}
+    <title>Правильный фронтенд независимо от технологий</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+    <style>
+        .slide::after {
+            visibility: hidden;
+        }
 
-	</style>
+    </style>
 </head>
 
 <body class="shower list">
 
-	<header class="caption">
-		<h1>Правильный фронтенд независимо от технологий</h1>
-		<p>Викитор Павлов, FFW Agency</p>
-	</header>
+    <header class="caption">
+        <h1>Правильный фронтенд независимо от технологий</h1>
+        <p>Виктор Павлов, FFW Agency</p>
+    </header>
 
-	<section class="slide black" id="cover">
-		<h2>Правильный фронтенд независимо от технологий</h2>
-		<h3>Об основанном на стайл-гайде независимом от технологий компонентном подходе в разработке фронтенда</h3>
-		<figure>
-			<img class="cover" src="pictures/cover.jpg" alt="Мужик размышляет на скамейке">
-			<figcaption class="white">
-				<a href="https://unsplash.com/@matthewhenry">© Matthew Henry</a>
-			</figcaption>
-		</figure>
-		<style>
-			#cover::after {
-				visibility: hidden;
-			}
+    <section class="slide black" id="cover">
+        <h2>Правильный фронтенд независимо от технологий</h2>
+        <figure>
+            <img class="cover" src="pictures/cover.jpg" alt="Мужик размышляет на скамейке">
+            <figcaption class="white">
+                <a href="https://unsplash.com/@matthewhenry">© Matthew Henry</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover::after {
+                visibility: hidden;
+            }
 
-			#cover h2 {
-				margin: 30px 0 0;
-				color: #FFF;
-				text-align: center;
-				font-size: 70px;
-			}
+            #cover h2 {
+                margin: 30px 0 0;
+                color: #FFF;
+                text-align: center;
+                font-size: 70px;
+            }
 
-			#cover h3 {
-				color: #fff;
-				text-align: center;
-			}
+            #cover h3 {
+                color: #fff;
+                text-align: center;
+            }
 
-			#cover p {
-				margin: 10px 0 0;
-				text-align: center;
-				color: #FFF;
-				font-style: italic;
-				font-size: 20px;
-			}
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: #FFF;
+                font-style: italic;
+                font-size: 20px;
+            }
 
-			#cover p a {
-				color: #FFF;
-			}
+            #cover p a {
+                color: #FFF;
+            }
 
-		</style>
-	</section>
+        </style>
+    </section>
 
-	<section class="slide white" id="about">
-		<div style="border-radius: 50%;overflow: hidden;float: left;width: 30%;height: 47%;margin: 0 8% 0 0;">
-			<img src="./pictures/me.jpg" alt="Виктор Павлов" style="width: 200%;object-fit: scale-down;transform: translate(-23%, -11%);">
+    <section class="slide white" id="about">
+		<p>Об основанном на стайл-гайде независимом от технологий компонентном подходе в разработке фронтенда</p>
+        <div style="border-radius: 50%;overflow: hidden;float: left;width: 30%;height: 47%;margin: 0 8% 0 0;">
+            <img src="./pictures/me.jpg" alt="Виктор Павлов" style="width: 200%;object-fit: scale-down;transform: translate(-23%, -11%);">
 		</div>
-		<h2 style="margin: 0 0 .5rem;">Виктор Павлов, FFW Agency</h2>
-		<p>Front-end developer</p>
-		<ul>
-			<li>
-				<a href="https://twitter.com/hiway_real">@hiway_real</a>
-			</li>
-			<li>
-				<a href="http://www.master-web.info">master-web.info</a>
-			</li>
-			<li>
-				<a href="mailto:vitekpavlov@gmail.com">vitekpavlov@gmail.com</a>
-			</li>
-		</ul>
-		<style>
-			#about .subtitle {
-				color: gray;
-				line-height: 1.2;
-			}
+        <h2 style="margin: 0 0 .5rem;">Виктор Павлов, FFW Agency</h2>
+        <p>Front-end developer</p>
+        <ul>
+            <li>
+                <a href="https://twitter.com/hiway_real">@hiway_real</a>
+            </li>
+            <li>
+                <a href="http://www.master-web.info">master-web.info</a>
+            </li>
+            <li>
+                <a href="mailto:vitekpavlov@gmail.com">vitekpavlov@gmail.com</a>
+            </li>
+        </ul>
+        <style>
+            #about .subtitle {
+                color: gray;
+                line-height: 1.2;
+            }
 
-		</style>
-	</section>
+        </style>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Зачем это нужно?</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Зачем это нужно?</h2>
+    </section>
 
-	<section class="slide">
-		<h2> Потому, что CSS странный</h2>
-		<figure>
-			<img src="pictures/css-is-weird.jpg" style="width: 65%;" alt="CSS странный">
-		</figure>
-	</section>
+    <section class="slide">
+        <h2> Потому, что CSS странный</h2>
+        <figure>
+            <img src="pictures/css-is-weird.jpg" style="width: 65%;" alt="CSS странный">
+        </figure>
+    </section>
 
-	<section class="slide">
-		<h2> Потому, что ↓</h2>
-		<figure>
-			<img src="pictures/verstke-eto-ne-tupo.png" style="width: 60%;" alt="Верстка — это не тупо">
-		</figure>
-	</section>
+    <section class="slide">
+        <h2> Потому, что ↓</h2>
+        <figure>
+            <img src="pictures/verstke-eto-ne-tupo.png" style="width: 60%;" alt="Верстка — это не тупо">
+        </figure>
+    </section>
 
-	<section class="slide">
-		<h2>А если серъезно:</h2>
-		<ol>
-			<li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
-		</ol>
-	</section>
+    <section class="slide">
+        <h2>А если серьезно:</h2>
+        <ol>
+            <li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
+        </ol>
+    </section>
 
-	<section class="slide">
-		<img class="cover" src="./pictures/bad-css.png" alt="Пример плохого CSS">
-	</section>
+    <section class="slide">
+        <img class="cover" src="./pictures/bad-css.png" alt="Пример плохого CSS">
+    </section>
 
-	<section class="slide">
-		<h2>А если серъезно:</h2>
-		<ol>
-			<li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
-			<li>Позволяет предоставить клиенту живые макеты до бекенд имплементации</li>
-			<li class="next">Пишем модульный (компонентный), легко поддерживаемый и расширяемы фронтенд</li>
-		</ol>
-	</section>
+    <section class="slide">
+        <h2>А если серьезно:</h2>
+        <ol>
+            <li>Позволяет отделить фронтенд и бэкенд и вести разработку параллельно</li>
+            <li>Позволяет предоставить клиенту живые макеты до бекенд имплементации</li>
+            <li class="next">Пишем модульный (компонентный), легко поддерживаемый и расширяемы фронтенд</li>
+        </ol>
+    </section>
 
-	<section class="slide">
-		<h2>Что такое стайл-гайд для фронтенд</h2>
-		<ol>
-			<li>Результат объединения работы UX-дизайнеров и разработчиков</li>
-			<li class="next">Модульнуя коллекцию всех элементов пользовательского интерфейса</li>
-			<li class="next">Фрагменты кода с примерами</li>
-		</ol>
-	</section>
+    <section class="slide">
+        <h2>Что такое стайл-гайд для фронтенд</h2>
+        <ol>
+            <li>Результат объединения работы UX-дизайнеров и разработчиков</li>
+            <li class="next">Модульная коллекцию всех элементов пользовательского интерфейса</li>
+            <li class="next">Фрагменты кода с примерами</li>
+        </ol>
+    </section>
 
-	<section class="slide">
-		<h2>Ключевые элементы стайл-гайд</h2>
-		<ol>
-			<li>Содержание, которое предоставляет легкую навигацию по компонентам</li>
-			<li class="next">Цветовая палитра (в соответствующем формате, HEX для Web, UIColor для iOS app, и т.д.)</li>
-			<li class="next">Типографские стили</li>
-			<li class="next">Отзывчивая разметка (сетка), чтобы красиво разместить элементы
-				<br />
-				<em>(это может, скорее даже должна быть та же сетка, что вы используете в проекте)</em>
-			</li>
-		</ol>
-	</section>
+    <section class="slide">
+        <h2>Ключевые элементы стайл-гайд</h2>
+        <ol>
+            <li>Содержание, которое предоставляет легкую навигацию по компонентам</li>
+            <li class="next">Цветовая палитра (в соответствующем формате, HEX для Web, UIColor для iOS app, и т.д.)</li>
+            <li class="next">Типографские стили</li>
+            <li class="next">Отзывчивая разметка (сетка), чтобы красиво разместить элементы
+                <br />
+                <em>(это может, скорее даже должна быть та же сетка, что вы используете в проекте)</em>
+            </li>
+        </ol>
+    </section>
 
-	<section class="slide">
-		<h2>Описание компонентов</h2>
-		<ol>
-			<li>Описание подходящего контекста использования: когда нужно использовать данный компонент, а не любой иной сходный с ним?</li>
-			<li class="next">Примеры кода</li>
-			<li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
-			<li class="next">За и против для использования этого элемента
-				<em>(опционально)</em>
-			</li>
-		</ol>
-	</section>
+    <section class="slide">
+        <h2>Описание компонентов</h2>
+        <ol>
+            <li>Описание подходящего контекста использования: когда нужно использовать данный компонент, а не любой иной сходный с ним?</li>
+            <li class="next">Примеры кода</li>
+            <li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
+            <li class="next">За и против для использования этого элемента
+                <em>(опционально)</em>
+            </li>
+        </ol>
+    </section>
 
-	<section class="slide">
-		<h2>Базовый лист компонентов</h2>
-		<ul class="double" style="font-size: .5em;">
-			<li>Buttons</li>
-			<li>Button groups</li>
-			<li>Breadcrumbs</li>
-			<li>Cards</li>
-			<li>Tables</li>
-			<li>Dialogs</li>
-			<li>Grid lists of content, media, or photos</li>
-			<li>Vertical lists</li>
-			<li>Navigation menus (and subnavigation)</li>
-			<li>Date and time pickers</li>
-			<li>Progress and loading indicators</li>
-			<li>Checkboxes</li>
-			<li>Radio buttons</li>
-			<li>Drop-down menus</li>
-			<li>Sliders</li>
-			<li>On-off switches</li>
-			<li>Numeric-input steppers/incrementers</li>
-			<li>Form fields (include variations with maximum character-count indicators, and indicators for when the field is required)</li>
-			<li>Tabs</li>
-			<li>Toolbars</li>
-			<li>Tooltips</li>
-			<li>Alert modals</li>
-			<li>Icons</li>
-			<li>Animations</li>
-			<li>Tokens, also known as chips (e.g. email-address field)</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Базовый лист компонентов</h2>
+        <ul class="double" style="font-size: .5em;">
+            <li>Buttons</li>
+            <li>Button groups</li>
+            <li>Breadcrumbs</li>
+            <li>Cards</li>
+            <li>Tables</li>
+            <li>Dialogs</li>
+            <li>Grid lists of content, media, or photos</li>
+            <li>Vertical lists</li>
+            <li>Navigation menus (and subnavigation)</li>
+            <li>Date and time pickers</li>
+            <li>Progress and loading indicators</li>
+            <li>Checkboxes</li>
+            <li>Radio buttons</li>
+            <li>Drop-down menus</li>
+            <li>Sliders</li>
+            <li>On-off switches</li>
+            <li>Numeric-input steppers/incrementers</li>
+            <li>Form fields (include variations with maximum character-count indicators, and indicators for when the field is required)</li>
+            <li>Tabs</li>
+            <li>Toolbars</li>
+            <li>Tooltips</li>
+            <li>Alert modals</li>
+            <li>Icons</li>
+            <li>Animations</li>
+            <li>Tokens, also known as chips (e.g. email-address field)</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Фронтенд стайл-гайд ≠ бренд-бук</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Фронтенд стайл-гайд ≠ бренд-бук</h2>
+    </section>
 
-	<section class="slide">
-		<h2>Живой стайл-гайд</h2>
-		<ol>
-			<li>Живой || Неживой</li>
-			<li class="next">
-				Живой выходит за пределы простого набора компонентов
-				<ul>
-					<li class="next">Наборы шаблонов и примеры страниц</li>
-					<li class="next">Часто синхронизирован со стилями проекта</li>
-				</ul>
-			</li>
-			<li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
-			<li class="next">За и против для использования этого элемента
-				<em>(опционально)</em>
-			</li>
-		</ol>
-	</section>
+    <section class="slide">
+        <h2>Живой стайл-гайд</h2>
+        <ol>
+            <li>Живой || Неживой</li>
+            <li class="next">
+                Живой выходит за пределы простого набора компонентов
+                <ul>
+                    <li class="next">Наборы шаблонов и примеры страниц</li>
+                    <li class="next">Часто синхронизирован со стилями проекта</li>
+                </ul>
+            </li>
+            <li class="next">Спецификацию для имплементации, включая информацию о позиционировании</li>
+            <li class="next">За и против для использования этого элемента
+                <em>(опционально)</em>
+            </li>
+        </ol>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Итак вы решили, что вам это нужно?</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Итак вы решили, что вам это нужно?</h2>
+    </section>
 
-	<section class="slide">
-		<h2>С чего начать?</h2>
-		<figure>
-			<img class="place right" width="55%" src="pictures/stgio.png" alt="styleguides.io">
-		</figure>
-		<ul>
-			<li>
-				<a href="http://styleguides.io">styleguides.io</a>
-				<ul>
-					<li>Статьи</li>
-					<li>Книги</li>
-					<li>Подкасты</li>
-					<li>Инструменты</li>
-					<li>Примеры</li>
-				</ul>
-			</li>
-			<li>
-				<a href="https://github.com/davidhund/styleguide-generators">styleguide-generators</a> — генераторы гайдов для разных языков.</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>С чего начать?</h2>
+        <figure>
+            <img class="place right" width="55%" src="pictures/stgio.png" alt="styleguides.io">
+        </figure>
+        <ul>
+            <li>
+                <a href="http://styleguides.io">styleguides.io</a>
+                <ul>
+                    <li>Статьи</li>
+                    <li>Книги</li>
+                    <li>Подкасты</li>
+                    <li>Инструменты</li>
+                    <li>Примеры</li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://github.com/davidhund/styleguide-generators">styleguide-generators</a> — генераторы гайдов для разных языков.</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Примеры генераторов стайл-гайдов</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Примеры генераторов стайл-гайдов</h2>
+    </section>
 
-	<section class="slide">
-		<h2>CS5</h2>
-		<figure>
-			<img class="place right" width="40%" src="pictures/cs5.png" alt="CS5">
-		</figure>
-		<ul>
-			<li>Oснован на KSS</li>
-			<li>Расширен некоторыми полезными функциями</li>
-			<li>Хороший интерфейс</li>
-			<li>Совместим AngularJS 1.x</li>
-			<li>Парсит SASS, LESS, PostCSS и ванильный CSS</li>
-		</ul>
-		<p class="note">
-			<em>Докумментирование ограничено KSS</em>
-			<br />
-			<em>Не совсем «живой»</em>
-		</p>
-	</section>
+    <section class="slide">
+        <h2>CS5</h2>
+        <figure>
+            <img class="place right" width="40%" src="pictures/cs5.png" alt="CS5">
+        </figure>
+        <ul>
+            <li>Основан на KSS</li>
+            <li>Расширен некоторыми полезными функциями</li>
+            <li>Хороший интерфейс</li>
+            <li>Совместим AngularJS 1.x</li>
+            <li>Парсит SASS, LESS, PostCSS и ванильный CSS</li>
+        </ul>
+        <p class="note">
+            <em>Документирование ограничено KSS</em>
+            <br />
+            <em>Не совсем «живой»</em>
+        </p>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Более «живые»</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Более «живые»</h2>
+    </section>
 
-	<section class="slide">
-		<h2>
-			<a href="https://sourcejs.com/">Sourcejs</a>
-		</h2>
-		<figure>
-			<img class="place right" width="47%" src="pictures/sourcejs.png" alt="CS5">
-		</figure>
-		<ul>
-			<li>Базируется на компонентном подходе</li>
-			<li>Есть система для написания плагинов</li>
-			<li>Интегрируем в стили проекта</li>
-			<li>Использует Grunt</li>
-		</ul>
-		<p class="note">
-			<em>Давно не обновлялся</p>
-	</section>
+    <section class="slide">
+        <h2>
+            <a href="https://sourcejs.com/">Sourcejs</a>
+        </h2>
+        <figure>
+            <img class="place right" width="47%" src="pictures/sourcejs.png" alt="CS5">
+        </figure>
+        <ul>
+            <li>Базируется на компонентном подходе</li>
+            <li>Есть система для написания плагинов</li>
+            <li>Интегрируем в стили проекта</li>
+            <li>Использует Grunt</li>
+        </ul>
+        <p class="note">
+            <em>Давно не обновлялся</p>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">
-			<a href="http://patternlab.io/">Patternlab</a>
-		</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">
+            <a href="http://patternlab.io/">Patternlab</a>
+        </h2>
+    </section>
 
-	<section class="slide white">
-		<figure>
-			<video class="cover" controls>
-				<source src="pictures/atomic-design.mp4" type="video/mp4">
-			</video>
-		</figure>
-	</section>
+    <section class="slide white">
+        <figure>
+            <video class="cover" controls>
+                <source src="pictures/atomic-design.mp4" type="video/mp4">
+            </video>
+        </figure>
+    </section>
 
-	<section class="slide">
-		<ul>
-			<li>Активно разрабатывается</li>
-			<li class="next">Основан на методологии
-				<a href="http://atomicdesign.bradfrost.com/">Atomic design</a>
-				<b>не путать с Atomic CSS</b>
-			</li>
-			<li class="next">Может быть легко использован с любой методологией</li>
-			<li class="next">Генерирует статический сайт с примера шаблонов</li>
-			<li class="next">Можно связать с живым проектом</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <ul>
+            <li>Активно разрабатывается</li>
+            <li class="next">Основан на методологии
+                <a href="http://atomicdesign.bradfrost.com/">Atomic design</a>
+                <b>не путать с Atomic CSS</b>
+            </li>
+            <li class="next">Может быть легко использован с любой методологией</li>
+            <li class="next">Генерирует статический сайт с примера шаблонов</li>
+            <li class="next">Можно связать с живым проектом</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2>Еще несколько особенностей</h2>
-		<ul>
-			<li class="next">Существует в версиях для Node и PHP</li>
-			<li class="next">Позволяет включать одни шаблоны в другие и формировать компоненты</li>
-			<li class="next">Динамические данные для контента (используется как JSON, так и YML)</li>
-			<li class="next">Не зависит от каких-либо конкретных инструментов</li>
-			<li class="next">Позволяет документировать паттерны и создавать аннотации к ним</li>
-			<li class="next">Содержит готовые наборы стартовых паттернов: Bootstrap, Foundation или Material Design</li>
-			<li class="next">Можно расширить с помощью плагинов</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Еще несколько особенностей</h2>
+        <ul>
+            <li class="next">Существует в версиях для Node и PHP</li>
+            <li class="next">Позволяет включать одни шаблоны в другие и формировать компоненты</li>
+            <li class="next">Динамические данные для контента (используется как JSON, так и YML)</li>
+            <li class="next">Не зависит от каких-либо конкретных инструментов</li>
+            <li class="next">Позволяет документировать паттерны и создавать аннотации к ним</li>
+            <li class="next">Содержит готовые наборы стартовых паттернов: Bootstrap, Foundation или Material Design</li>
+            <li class="next">Можно расширить с помощью плагинов</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Бонус!</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Бонус!</h2>
+    </section>
 
-	<section class="slide">
-		<img src="./pictures/styleguide-guide.png" class="cover" alt="Styleguide Guide">
-	</section>
+    <section class="slide">
+        <img src="./pictures/styleguide-guide.png" class="cover" alt="Styleguide Guide">
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">А как же React? :)</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">А как же React? :)</h2>
+    </section>
 
-	<section class="slide">
-		<h2>
-			<a href="https://github.com/pocotan001/react-styleguide-generator">React Styleguide Generator</a>
-		</h2>
-		<figure>
-			<img class="place right" width="40%" src="pictures/react.png" alt="CS5">
-		</figure>
-		<ul>
-			<li>Работает с React на уровне компонентов</li>
-			<li>Добавляем документацию в виде
-				<br/> статического свойства с объектов-описанием</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>
+            <a href="https://github.com/pocotan001/react-styleguide-generator">React Styleguide Generator</a>
+        </h2>
+        <figure>
+            <img class="place right" width="40%" src="pictures/react.png" alt="CS5">
+        </figure>
+        <ul>
+            <li>Работает с React на уровне компонентов</li>
+            <li>Добавляем документацию в виде
+                <br/> статического свойства с объектов-описанием</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<pre>
-			<code style="font-size: .4em;">
-			import React from 'react'
-			import Button from './Button'
+    <section class="slide">
+        <pre>
+            <code style="font-size: .4em;">
+            import React from 'react'
+            import Button from './Button'
 
-			export default class extends React.Component {
-				static styleguide = {
-					index: '1.1',
-					category: 'Elements',
-					title: 'Button',
-					description: 'You can use **Markdown** within this `description` field.',
-					code: `&lt;Button size='small|large' onClick={Function}&gt;Cool Button&lt;/Button&gt;`,
-					className: 'apply the css class'
-				}
+            export default class extends React.Component {
+                static styleguide = {
+                    index: '1.1',
+                    category: 'Elements',
+                    title: 'Button',
+                    description: 'You can use **Markdown** within this `description` field.',
+                    code: `&lt;Button size='small|large' onClick={Function}&gt;Cool Button&lt;/Button&gt;`,
+                    className: 'apply the css class'
+                }
 
-				onClick () {
-					alert('Alo!')
-				}
+                onClick () {
+                    alert('Alo!')
+                }
 
-				render () {
-					return (
-					&lt;Button size='large' onClick={this.onClick}&gt;Cool Button&lt;/Button&gt;
-					)
-				}
-			}
-			</code>
-		</pre>
-	</section>
+                render () {
+                    return (
+                    &lt;Button size='large' onClick={this.onClick}&gt;Cool Button&lt;/Button&gt;
+                    )
+                }
+            }
+            </code>
+        </pre>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">А что, если не использовать готовый инструмент?</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">А что, если не использовать готовый инструмент?</h2>
+    </section>
 
-	<section class="slide white">
-		<h2>Джентельменский набор</h2>
-		<figure>
-			<img class="place top right" src="pictures/denwer.jpg" alt="Старый-добрый Денвер">
-		</figure>
-		<ul>
-			<li class="next">
-				<a href="https://github.com/kss-node/kss-node">kss-node</a> — для документирования в стилях</li>
-			<li class="next">Шаблонизатор для HTML (Mustache, Twig, Pug…)</li>
-			<li class="next">Для CSS —
-				<s>SASS</s>
-				<a href="http://postcss.org/">PostCSS</a>
-			</li>
-			<li class="next">Для JavaScript:
-				<s>
-					<a href="https://babeljs.io/">Babel</a> +
-					<a href="http://browserify.org/">Browserify</a>
-				</s> →
-				<a href="https://webpack.js.org">Webpack</a>
-			</li>
-			<li class="next">
-				Линтеры
-				<ul>
-					<li>
-						<a href="http://eslint.org/">Eslint</a> →
-						<a href="https://standardjs.com/">Standardjs</a> =
-						<mark>"no config" ESLint</mark>
-					</li>
-					<li>
-						<a href="https://github.com/stylelint/stylelint">Stylelint</a>
-					</li>
-				</ul>
-			</li>
-			<li class="next">Сборщики: Gulp, Grunt,
-				<a href="http://brunch.io/">Brunch</a> или опять же
-				<a href="https://webpack.js.org">Webpack</a>
-			</li>
-		</ul>
-	</section>
+    <section class="slide white">
+        <h2>Джентльменский набор</h2>
+        <figure>
+            <img class="place top right" src="pictures/denwer.jpg" alt="Старый-добрый Денвер">
+        </figure>
+        <ul>
+            <li class="next">
+                <a href="https://github.com/kss-node/kss-node">kss-node</a> — для документирования в стилях</li>
+            <li class="next">Шаблонизатор для HTML (Mustache, Twig, Pug…)</li>
+            <li class="next">Для CSS —
+                <s>SASS</s>
+                <a href="http://postcss.org/">PostCSS</a>
+            </li>
+            <li class="next">Для JavaScript:
+                <s>
+                    <a href="https://babeljs.io/">Babel</a> +
+                    <a href="http://browserify.org/">Browserify</a>
+                </s> →
+                <a href="https://webpack.js.org">Webpack</a>
+            </li>
+            <li class="next">
+                Линтеры
+                <ul>
+                    <li>
+                        <a href="http://eslint.org/">Eslint</a> →
+                        <a href="https://standardjs.com/">Standardjs</a> =
+                        <mark>"no config" ESLint</mark>
+                    </li>
+                    <li>
+                        <a href="https://github.com/stylelint/stylelint">Stylelint</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="next">Сборщики: Gulp, Grunt,
+                <a href="http://brunch.io/">Brunch</a> или опять же
+                <a href="https://webpack.js.org">Webpack</a>
+            </li>
+        </ul>
+    </section>
 
-	<section class="slide white">
-		<h2 style="padding: 10px; background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);">В итоге, что-то типа…</h2>
-		<figure>
-			<img class="cover" src="pictures/sgsample.png" alt="Пример простого стайлгайда">
-			<figcaption>
-				<a href="https://github.com/cehfisher/a11y-style-guide">https://github.com/cehfisher/a11y-style-guide</a>
-			</figcaption>
-		</figure>
-	</section>
+    <section class="slide white">
+        <h2 style="padding: 10px; background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);">В итоге, что-то типа…</h2>
+        <figure>
+            <img class="cover" src="pictures/sgsample.png" alt="Пример простого стайлгайда">
+            <figcaption>
+                <a href="https://github.com/cehfisher/a11y-style-guide">https://github.com/cehfisher/a11y-style-guide</a>
+            </figcaption>
+        </figure>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">О компонентном подходе</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">О компонентном подходе</h2>
+    </section>
 
-	<section class="slide">
-		<h2>Компонентный подход во фронтенде</h2>
-		<ul>
-			<li>Сложно, но можно!</li>
-			<li>Если можно, то нужно!</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Компонентный подход во фронтенде</h2>
+        <ul>
+            <li>Сложно, но можно!</li>
+            <li>Если можно, то нужно!</li>
+        </ul>
+    </section>
 
-	<section class="slide white">
-		<h2>Принципы</h2>
-		<figure>
-			<img class="place top right" src="pictures/comp-sample.png" alt="Пример компонента">
-		</figure>
-		<ul>
-			<li>Каждый компонент имеет свое место
-				<br /> в сорс-три вашего проекта.</li>
-			<li class="next">Каждый компонент содержит все
-				<br /> необходимое для его успешного функционирования.</li>
-			<li class="next">Каждый компонент придерживается принципов DRY</li>
-			<li class="next">Каждый компонент придерживается SRP</li>
-		</ul>
-	</section>
+    <section class="slide white">
+        <h2>Принципы</h2>
+        <figure>
+            <img class="place top right" src="pictures/comp-sample.png" alt="Пример компонента">
+        </figure>
+        <ul>
+            <li>Каждый компонент имеет свое место
+                <br /> в сорс-три вашего проекта.</li>
+            <li class="next">Каждый компонент содержит все
+                <br /> необходимое для его успешного функционирования.</li>
+            <li class="next">Каждый компонент придерживается принципов DRY</li>
+            <li class="next">Каждый компонент придерживается SRP</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout">Что нам поможет?</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout">Что нам поможет?</h2>
+    </section>
 
-	<section class="slide">
-		<h2>Методологии в CSS</h2>
-		<ul>
-			<li>
-				<a href="https://ru.bem.info/">БЭМ</a>
-			</li>
-			<li>
-				<a href="https://smacss.com/">SMACSS</a>
-			</li>
-			<li>
-				<a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a>
-			</li>
-			<li>
-				<a href="https://acss.io/">Atomic CSS</a>
-			</li>
-			<li>
-				<a href="http://operatino.github.io/MCSS/">MCSS</a>
-			</li>
-			<li>
-				<a href="https://amcss.github.io/">AMCSS</a>
-			</li>
-			<li>
-				<a href="https://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/">FUN</a>
-			</li>
-		</ul>
-		<p>Есть
-			<a href="https://habrahabr.ru/post/256109/">неплохая обзорная статья на хабре</a>.
-			<a href="http://html5.by/blog/bem-amcss-oocss-atomiccss-opor-mcss-smacss-fun-docssa-video/">Здесь доклад.</a>
-		</p>
-	</section>
+    <section class="slide">
+        <h2>Методологии в CSS</h2>
+        <ul>
+            <li>
+                <a href="https://ru.bem.info/">БЭМ</a>
+            </li>
+            <li>
+                <a href="https://smacss.com/">SMACSS</a>
+            </li>
+            <li>
+                <a href="https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/">OOCSS</a>
+            </li>
+            <li>
+                <a href="https://acss.io/">Atomic CSS</a>
+            </li>
+            <li>
+                <a href="http://operatino.github.io/MCSS/">MCSS</a>
+            </li>
+            <li>
+                <a href="https://amcss.github.io/">AMCSS</a>
+            </li>
+            <li>
+                <a href="https://benfrain.com/enduring-css-writing-style-sheets-rapidly-changing-long-lived-projects/">FUN</a>
+            </li>
+        </ul>
+        <p>Есть
+            <a href="https://habrahabr.ru/post/256109/">неплохая обзорная статья на хабре</a>.
+            <a href="http://html5.by/blog/bem-amcss-oocss-atomiccss-opor-mcss-smacss-fun-docssa-video/">Здесь доклад.</a>
+        </p>
+    </section>
 
-	<section class="slide">
-		<h2>Как добиться использования методологии?</h2>
-		<ul>
-			<li>Описание методологии в документации проекта</li>
-			<li class="next">Линтинг CSS (как?)
-				<a href="https://stylelint.io/">Stylelint</a> dev/build</li>
-			<li class="next">Код-ревью</li>
-			<li class="next">Доклад Антона Немцева «Кодстайл и насилие» →
-				<a href="https://silentimp.github.io/codeStyleAndViolenceRu/index.html#slide-1">слайды</a>
-			</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Как добиться использования методологии?</h2>
+        <ul>
+            <li>Описание методологии в документации проекта</li>
+            <li class="next">Линтинг CSS (как?)
+                <a href="https://stylelint.io/">Stylelint</a> dev/build</li>
+            <li class="next">Код-ревью</li>
+            <li class="next">Доклад Антона Немцева «Кодстайл и насилие» →
+                <a href="https://silentimp.github.io/codeStyleAndViolenceRu/index.html#slide-1">слайды</a>
+            </li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2>Организация компонентов</h2>
-		<p>«Слоеный пирог» разделения ответственности</p>
-		<ul>
-			<li class="next">
-				<b>Базовый слой (base/root)</b> — отвечает за основную конфигурацию проекта</li>
-			<li class="next">
-				<b>Разметка</b> — функция распределения компонентов в интерфейсе</li>
-			<li class="next">
-				<b>Блоки</b> — основная структурная единица проекта</li>
-			<li class="next">
-				<b>Компоненты</b> — слой для организации блоков</li>
-			<li class="next">
-				<b>Шаблоны</b> — типовые примеры распределения компонентов в разметке</li>
-			<li class="next">
-				<b>Страницы</b> — еще один вспомогательный слой для того, чтобы сделать шаблоны красивыми</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Организация компонентов</h2>
+        <p>«Слоеный пирог» разделения ответственности</p>
+        <ul>
+            <li class="next">
+                <b>Базовый слой (base/root)</b> — отвечает за основную конфигурацию проекта</li>
+            <li class="next">
+                <b>Разметка</b> — функция распределения компонентов в интерфейсе</li>
+            <li class="next">
+                <b>Блоки</b> — основная структурная единица проекта</li>
+            <li class="next">
+                <b>Компоненты</b> — слой для организации блоков</li>
+            <li class="next">
+                <b>Шаблоны</b> — типовые примеры распределения компонентов в разметке</li>
+            <li class="next">
+                <b>Страницы</b> — еще один вспомогательный слой для того, чтобы сделать шаблоны красивыми</li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Что поможет в организации компонентов?</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Что поможет в организации компонентов?</h2>
+    </section>
 
-	<section class="slide">
-		<h2>Модульность JS</h2>
-		<ul>
-			<li>ES6 modules — для JavaScript</li>
-			<li class="next">
-				<img src="./pictures/all-er.jpg" alt="Всё!" class="cover w h">
-			</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Модульность JS</h2>
+        <ul>
+            <li>ES6 modules — для JavaScript</li>
+            <li class="next">
+                <img src="./pictures/all-er.jpg" alt="Всё!" class="cover w h">
+            </li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2>CSS modules</h2>
-		<ul>
-			<li>
-				<a href="https://github.com/css-modules/postcss-modules">Postcss-modules</a>
-			</li>
-			<li class="next">Конечно же, React —
-				<a href="https://github.com/styled-components/polished">styled-components</a>
-			</li>
-			<li class="next">Продолжаем —
-				<a href="https://stylable.io/">Stylable</a>
-			</li>
-			<li class="next">Продолжаем…</li>
-			<li class="next">Отличный доклад по модульному CSS
-				<a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a> —
-				<b>Модульный CSS — Андрей Оконечников</b>
-			</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>CSS modules</h2>
+        <ul>
+            <li>
+                <a href="https://github.com/css-modules/postcss-modules">Postcss-modules</a>
+            </li>
+            <li class="next">Конечно же, React —
+                <a href="https://github.com/styled-components/polished">styled-components</a>
+            </li>
+            <li class="next">Продолжаем —
+                <a href="https://stylable.io/">Stylable</a>
+            </li>
+            <li class="next">Продолжаем…</li>
+            <li class="next">Отличный доклад по модульному CSS
+                <a href="https://www.youtube.com/watch?v=vYmSYsj-s5w">https://www.youtube.com/watch?v=vYmSYsj-s5w</a> —
+                <b>Модульный CSS — Андрей Оконечников</b>
+            </li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">А теперь самое интересное!</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">А теперь самое интересное!</h2>
+    </section>
 
-	<section class="slide">
-		<img src="./pictures/html-js-css.jpg" alt="HTML + JS + CSS" class="cover">
-		<h2 style="position: absolute;bottom: 8%;left: 50%;transform: translateX(-50%);">All you need is…</h2>
-	</section>
+    <section class="slide">
+        <img src="./pictures/html-js-css.jpg" alt="HTML + JS + CSS" class="cover">
+        <h2 style="position: absolute;bottom: 8%;left: 50%;transform: translateX(-50%);">All you need is…</h2>
+    </section>
 
-	<section class="slide">
-		<h2 class="shout shrink">Technology-agnostic Design Systems</h2>
-	</section>
+    <section class="slide">
+        <h2 class="shout shrink">Technology-agnostic Design Systems</h2>
+    </section>
 
-	<section class="slide">
-		<h2>Mustache — почти HTML</h2>
-		<pre>
-	<code>
-	&lt;div class="c-card"&gt;
-		&lt;img src="{{ img }}" class="c-card__img" /&gt;
-		&lt;h2 class="c-card__title"&gt;{{ title }}&lt;/h2&gt;
-		&lt;p class="c-card__desc"&gt;{{ description }}&lt;/p&gt;
-	&lt;/div&gt;
-	</code>
-		</pre>
-	</section>
+    <section class="slide">
+        <h2>Mustache — почти HTML</h2>
+        <pre>
+    <code>
+    &lt;div class="c-card"&gt;
+        &lt;img src="{{ img }}" class="c-card__img" /&gt;
+        &lt;h2 class="c-card__title"&gt;{{ title }}&lt;/h2&gt;
+        &lt;p class="c-card__desc"&gt;{{ description }}&lt;/p&gt;
+    &lt;/div&gt;
+    </code>
+        </pre>
+    </section>
 
-	<section class="slide">
-		<h2>React</h2>
-		<pre style="margin-top: -100px;transform: scale(.75);"><code>
+    <section class="slide">
+        <h2>React</h2>
+        <pre style="margin-top: -100px;transform: scale(.75);"><code>
 var Card = React.createClass({
-	render: function() {
-		return (
-			&lt;div className="c-card"&gt;
-				&lt;img src="{this.props.img}" className="c-card__img" /&gt;
-				&lt;h2 className="c-card__title"&gt;{this.props.title}&lt;/h2&gt;
-				&lt;p className="c-card__desc"&gt;{this.props.desc}&lt;/p&gt;
-			&lt;/div&gt;
-		);
-	}
+    render: function() {
+        return (
+            &lt;div className="c-card"&gt;
+                &lt;img src="{this.props.img}" className="c-card__img" /&gt;
+                &lt;h2 className="c-card__title"&gt;{this.props.title}&lt;/h2&gt;
+                &lt;p className="c-card__desc"&gt;{this.props.desc}&lt;/p&gt;
+            &lt;/div&gt;
+        );
+    }
 })
-		</code></pre>
-	</section>
+        </code></pre>
+    </section>
 
-	<section class="slide">
-		<figure>
-			<img class="cover w h" src="./pictures/tech-bubbles-1024x922.png" alt="Схема технологий">
-			<figcaption>
-				<a href="http://fiftyfootshadows.net/">© Brad Frost</a>
-			</figcaption>
-		</figure>
-	</section>
+    <section class="slide">
+        <figure>
+            <img class="cover w h" src="./pictures/tech-bubbles-1024x922.png" alt="Схема технологий">
+            <figcaption>
+                <a href="http://fiftyfootshadows.net/">© Brad Frost</a>
+            </figcaption>
+        </figure>
+    </section>
 
-	<section class="slide">
-		<h2>Дизайн система не зависимая от технологии использует</h2>
-		<ul>
-			<li>
-				HTML для разметки
-			</li>
-			<li class="next">CSS для стилей
-			</li>
-			<li class="next">
-				Базовый JavaScript для манипуляций с DOM
-			</li>
-		</ul>
-	</section>
+    <section class="slide">
+        <h2>Дизайн система независимая от технологии использует</h2>
+        <ul>
+            <li>
+                HTML для разметки
+            </li>
+            <li class="next">CSS для стилей
+            </li>
+            <li class="next">
+                Базовый JavaScript для манипуляций с DOM
+            </li>
+        </ul>
+    </section>
 
-	<section class="slide">
-		<h2>Bootstrap</h2>
-		<img src="./pictures/bootstrap-dist.png" alt="Bootstrap" class="cover">
-	</section>
+    <section class="slide">
+        <h2>Bootstrap</h2>
+        <img src="./pictures/bootstrap-dist.png" alt="Bootstrap" class="cover">
+    </section>
 
-	<section class="slide">
-		<h2 style="margin-bottom: 0;">Жизнь алерта в TADS</h2>
-		<p>
-			<b>Bootstrap</b>
-		</p>
-		<img src="./pictures/bootstrap-alert.png" alt="Алерт в бутсрапе">
-	</section>
+    <section class="slide">
+        <h2 style="margin-bottom: 0;">Жизнь алерта в TADS</h2>
+        <p>
+            <b>Bootstrap</b>
+        </p>
+        <img src="./pictures/bootstrap-alert.png" alt="Алерт в бутсрапе">
+    </section>
 
-	<section class="slide">
-		<p>
-			<b>React-Bootstrap</b>
-		</p>
-		<img src="./pictures/alert-rb.png" alt="Алерт в React-Bootstrap" class="place" width="55%">
-	</section>
+    <section class="slide">
+        <p>
+            <b>React-Bootstrap</b>
+        </p>
+        <img src="./pictures/alert-rb.png" alt="Алерт в React-Bootstrap" class="place" width="55%">
+    </section>
 
-	<section class="slide">
-		<p>
-			<b>ng-bootstrap</b>
-		</p>
-		<img src="./pictures/ang-all.png" alt="Алерт в ng-bootstrap" class="place" width="55%">
-	</section>
+    <section class="slide">
+        <p>
+            <b>ng-bootstrap</b>
+        </p>
+        <img src="./pictures/ang-all.png" alt="Алерт в ng-bootstrap" class="place" width="55%">
+    </section>
 
-	<section class="slide">
-		<p>
-			<b>WordPress Bootstrap Theme</b>
-		</p>
-		<img src="./pictures/wp-b-al.png" alt="Алерт в WordPress Bootstrap Theme" class="place" width="50%">
-	</section>
+    <section class="slide">
+        <p>
+            <b>WordPress Bootstrap Theme</b>
+        </p>
+        <img src="./pictures/wp-b-al.png" alt="Алерт в WordPress Bootstrap Theme" class="place" width="50%">
+    </section>
 
-	<section class="slide">
-		<p>
-			<b>Drupal Bootstrap</b>
-		</p>
-		<img src="./pictures/drupal-bp-all.png" alt="Алерт в Drupal Bootstrap Theme" class="place bottom" width="50%" style="bottom: 10%;">
+    <section class="slide">
+        <p>
+            <b>Drupal Bootstrap</b>
+        </p>
+        <img src="./pictures/drupal-bp-all.png" alt="Алерт в Drupal Bootstrap Theme" class="place bottom" width="50%" style="bottom: 10%;">
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">Спасибо!</h2>
+    </section>
+
+    <section class="slide" id="see-more">
+
+        <h2 class="shout">
+            <img src="pictures/logo.svg" alt="Shower logo">
+            <a href="https://github.com/shower/shower">Спасибо Shower</a>
+
+        </h2>
+        <style>
+            #see-more h2 {
+                font-size: 100px
+            }
+
+            #see-more img {
+                width: 0.72em;
+                height: 0.72em;
+            }
+        </style>
 	</section>
 
 	<section class="slide">
@@ -692,7 +715,7 @@ var Card = React.createClass({
 				</ul>
 			</li>
 			<li>
-				<a href="http://atomicdesign.bradfrost.com/">Atomic design</a> &mdash; книга Бреда Фроста про атомарный дизайн</li>
+				<a href="http://atomicdesign.bradfrost.com/">Atomic design</a> &mdash; книга Брэда Фроста про атомарный дизайн</li>
 			<li>
 				<a href="https://medium.com/building-a-component-library">Как ребята делали свою библиотеку компонентов</a>
 			</li>
@@ -711,38 +734,14 @@ var Card = React.createClass({
 
 	</section>
 
-	<section class="slide">
-		<h2 class="shout">Спасибо!</h2>
-	</section>
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
 
-	<section class="slide" id="see-more">
+    <div class="progress"></div>
 
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">Спасибо Shower</a>
-
-		</h2>
-		<style>
-			#see-more h2 {
-				font-size: 100px
-			}
-
-			#see-more img {
-				width: 0.72em;
-				height: 0.72em;
-			}
-		</style>
-	</section>
-
-
-	<footer class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</footer>
-
-	<div class="progress"></div>
-
-	<script src="node_modules/shower-core/shower.min.js"></script>
-	<!-- Copyright © 2017 Yours Truly, Famous Inc. -->
+    <script src="node_modules/shower-core/shower.min.js"></script>
+    <!-- Copyright © 2017 Yours Truly, Famous Inc. -->
 
 </body>
 
